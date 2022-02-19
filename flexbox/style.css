@@ -1,0 +1,28 @@
+.yellow{
+    height: 45px;
+    width: 10px;
+    background-color: yellow;
+}
+
+.yellow2 {
+    height: 10px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.blue{
+    height: 45px;
+    width: 90px;
+    background-color: blue;
+}
+
+.blue2 {
+    height: 45px;
+    width: 200px;
+    background-color: blue;
+} 
+
+.container {
+    display:flex;
+    flex-direction: row;
+}
