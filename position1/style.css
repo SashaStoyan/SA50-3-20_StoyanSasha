@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vw;
+    width: 800px;
+    background-color:rgb(255, 255, 255);
+}
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 124, 124);
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.purple {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 83, 211);
+    position: absolute;
+    top: 105px;
+    margin-left: 100px;
+}
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(93, 255, 161);
+    position: absolute;
+    top: 165px;
+    margin-left: 150px;
+}
