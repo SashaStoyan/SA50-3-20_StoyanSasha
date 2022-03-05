@@ -17,3 +17,8 @@
     box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
     border-radius: 25.5px;
 }
+
+.block:active {
+    background: #5D5FEF;
+    border-radius: 25.5px;
+}
