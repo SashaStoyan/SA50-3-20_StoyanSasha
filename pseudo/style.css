@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.block {
+    height: 51px;
+    width: 185px;
+    background: linear-gradient(108.62deg, #5D5FEF 20.49%, #7879F1 46.52%, #A5A6F6 78.55%, #A5A6F6 78.55%);
+    border-radius: 25.5px;
+}
+
+.block:hover {
+    background: #A5A6F6;
+    box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
+    border-radius: 25.5px;
+}
+
+.block:active {
+    background: #5D5FEF;
+    border-radius: 25.5px;
+}
