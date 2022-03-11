@@ -4,11 +4,54 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-
-
 .q {
-    position: absolute;
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     background-image: url(image/start-screen-gradient-background.png);
+}
+.w {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width:1200px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.block1 {
+    height: 60px;
+    width: 184px;
+}
+
+.block2 {
+    display: flex;
+align-items: center;
+    width: 184px;
+    height: 35px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 110%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+}
+.block3 {
+    display: flex;
+align-items: center;
+    width: 184px;
+    height: 15px;
+    margin-top: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+}
+.block4 {
+    height: 27px;
+    width: 443px;
 }
