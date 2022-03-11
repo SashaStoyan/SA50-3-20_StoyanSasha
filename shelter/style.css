@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+
+.q {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-image: url(image/start-screen-gradient-background.png);
+}
