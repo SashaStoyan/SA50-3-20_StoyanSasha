@@ -13,15 +13,17 @@
     position: absolute;
     top: 60px;
     left: 40px;
+    right: 40px;
     width:1200px;
     height: 60px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
-.block1 {
-    height: 60px;
+
+.block1{
     width: 184px;
+    height: 60px;
 }
 
 .block2 {
@@ -51,7 +53,35 @@ align-items: center;
     color: #FFFFFF;
     letter-spacing: 0.1em;
 }
-.block4 {
-    height: 27px;
+nav {
+    position: absolute;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 443px;
+    height: 27px;
+}
+.list_item_link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+.list_item_link:active {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
 }
