@@ -24,3 +24,24 @@
     line-height: 84px;
     color: #000000;
 }
+nav {
+    padding-right: 66px;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 36px;
+}
+.list_item_link {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-decoration: none;
+}
