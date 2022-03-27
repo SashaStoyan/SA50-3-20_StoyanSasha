@@ -69,34 +69,34 @@ nav {
 }
 .p1 {
     grid-area: q1;
-    background-image: url(asserts/dZFeVYW-ENE_1.png);
+    background-image: url(asserts/image/dZFeVYW-ENE_1.png);
 }
 .p2 {
     grid-area: q2;
-    background-image: url(asserts/_LIA-hVjOKg_2.png);
+    background-image: url(asserts/image/LIA-hVjOKg_2.png);
 }
 .p3 {
     grid-area: q4;
-    background-image: url(asserts/dDiNgOcxGn4_3.png) 
+    background-image: url(asserts/image/dDiNgOcxGn4_3.png) 
 }
 
 .p4 {
     grid-area: q3;
-    background-image: url(asserts/eDh9Aza081U_4.png)
+    background-image: url(asserts/image/eDh9Aza081U_4.png)
 }
 .p5 {
     grid-area: q5;
-    background-image: url(asserts/dDiNgOcxGn4\ 1_5.png)
+    background-image: url(asserts/image/dDiNgOcxGn4\ 1_5.png)
 }
 .p6 {
     grid-area: q6;
-    background-image: url(asserts/PQCKGMhiqpU\ 1_6.png)
+    background-image: url(asserts/image/PQCKGMhiqpU\ 1_6.png)
 }
 .p7 {
     grid-area: q7;
-    background-image: url(asserts/Khv38I6A-us\ 1_7.png)
+    background-image: url(asserts/image/Khv38I6A-us\ 1_7.png)
 }
 .p8 {
     grid-area: q8;
-    background-image: url(asserts/H46P4km2fiY\ 1_8.png)
+    background-image: url(asserts/image/H46P4km2fiY\ 1_8.png)
 }
