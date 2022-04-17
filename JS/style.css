@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+
+.moveblock {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 20px;
+    transform: rotate(90deg)
+}
+
+.moveblock:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Document </title>
+</head>
+<body>
+
+    <div class="moveblock" id="block"><center>:(</center></div>
+
+    <script>
+        let block = document.getElementById("block");
+        let windowWidth = window.innerWidth;
+        let windowHeight = window.innerHeight;
+        let blockWidth = block.offsetWidth;
+
+        let down = 0;
+        let right = 0;
+        let up = 0;
+
+        let time = 0;
+        let leftTime = 0;
+
+    function move() {
+
+        if (right == windowWidth - blockWidth) {
+            block.style.top = down-- + "px"
+            up--
+
+        } else if (down < windowHeight - blockWidth) {
+            down++
+            up++
+            block.style.top = down + 'px'
+
+        } else if (up == windowHeight - blockWidth) {
+            right++
+            block.style.left = right + "px"
+
+        } 
+
+        if (up == 0 & right == windowWidth - blockWidth) {
+            clearInterval(time)
+            leftTime = setInterval(leftmove, 1);
+        }
+
+    }
+
+function leftmove() {
+    right--
+    block.style.left = right + "px"
+    if (right == 0) {
+    block.style.left = 0 + "px"
+    block.style.top = 0 + "px"
+    clearInterval(leftTime)
+    time = setInterval(move, 1);
+    }
+}
+
+function startAnimation(){
+    time = setInterval(move, 1)
+    block.removeEventListener('click', startAnimation)
+}
+
+block.addEventListener("click", startAnimation)
+    </script>
+
+</body>
+</html>
